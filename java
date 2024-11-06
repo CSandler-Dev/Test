@@ -1,7 +1,6 @@
 import java.util.Scanner;
-public class NumberOne { 
 
-	public static void main(String[] args) {
+public static void main (String[] args) {
 	   
 		Scanner keyboard = new Scanner(System.in); //creates a Scanner object
 		int num = keyboard.nextInt(); //reads in num from user
@@ -11,4 +10,3 @@ public class NumberOne {
 		   num = keyboard.nextInt();
 		}
 	}
-}
